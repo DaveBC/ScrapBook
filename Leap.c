@@ -1,3 +1,11 @@
+//
+//  Leap.c
+//  Leap year identifier.
+//
+//  Created by David Banwell-Clode on 16/10/2015.
+//  Copyright (c) 2015 David Banwell-Clode. All rights reserved.
+//
+
 #include <stdio.h>
 int isLeapYear(int year);
  
@@ -30,6 +38,9 @@ int main(int argc, char **argv)
     }
 }
 
+/*
+ * Leap year test.
+ */
 int isLeapYear(int year) 
 {
     if(year % 4 == 0) {
