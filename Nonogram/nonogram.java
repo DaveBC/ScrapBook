@@ -101,8 +101,11 @@ public class nonogram{
         }
         
 //        System.out.println("Maxrow: " + maxrow + " Maxcol: " + maxcol);
-        System.out.println("Columns:");
+//        System.out.println("Columns:");
         for(int j = maxcol-1; j >= 0; j--) {
+            for(int i = 0; i < maxrow; i++) {
+                System.out.print("   ");
+            }
             for(int i = 0; i < col.size(); i++) {
                 if(col.get(i).size() < j+1) {
                     System.out.print("   ");
@@ -111,10 +114,10 @@ public class nonogram{
                     System.out.print(" " + col.get(i).get(col.get(i).size()-1-j) + " ");
                 }
             }
-                            System.out.println("");
+            System.out.println("");
         }
-        System.out.println("");
-        System.out.println("Rows:");
+//        System.out.println("");
+//        System.out.println("Rows:");
         for(int i = 0; i < row.size(); i++) {
             for(int j = maxrow-1; j >= 0; j--) {
                 if(row.get(i).size() < j+1) {
