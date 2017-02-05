@@ -1,7 +1,7 @@
 //
 //  nonogram.java
-//  Daily Programmer Intermediate Challenge #249
-//  https://www.reddit.com/r/dailyprogrammer/comments/40h9pd/20160111_challenge_249_easy_playing_the_stock/
+//  Daily Programmer Easy Challenge #251
+//  https://www.reddit.com/r/dailyprogrammer/comments/42lhem/20160125_challenge_251_easy_create_nonogram/
 // 
 //  Created by David Banwell-Clode on 24/01/2016.
 //  Copyright (c) 2016 David Banwell-Clode. All rights reserved.
